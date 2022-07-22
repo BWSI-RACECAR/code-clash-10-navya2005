@@ -44,7 +44,7 @@ class Solution:
         word_endings = []
         filtered_endings = [] 
         rhyme_amount = []
-        rhyme_count = []
+        rhyme_count = 0
         for i in range(len(words)):
             if(words[i][0] in first_letters):
                 if(words[i][0] in alit_letters):
